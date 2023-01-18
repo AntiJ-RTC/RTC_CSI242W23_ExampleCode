@@ -23,3 +23,9 @@ const area = (length, width) => length * width
 
 let a = area(5,2);
 console.log(a);
+
+//IIFE Immediately Invokable Function Expression
+//Creating an arrow function and calling it at the same time
+((input) => {
+    console.log("IIFE function " + input);
+})("Hello From IIFE");
