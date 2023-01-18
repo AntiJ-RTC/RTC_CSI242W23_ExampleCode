@@ -29,3 +29,7 @@ console.log(a);
 ((input) => {
     console.log("IIFE function " + input);
 })("Hello From IIFE");
+
+((number) =>{
+    console.log(number % 2 === 0);
+})(8);
